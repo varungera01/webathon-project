@@ -1,0 +1,504 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+.logofont{
+    font-family : "Microsoft JhengHei";
+    font-size  : 25px; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 10px 10px 10px 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 50px 5px 8px 0;
+  background-image: url(https://www.cloudi5.com/asset/images/web-development-web-design-mobile-app-development-digital-marketingservices-cloudi5.jpg);
+  background-size: cover;
+  color: white;
+  height : 800px;
+
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.header-right a{
+    color : white;
+    padding : 5px 15px 5px 10px;
+    
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+    padding : 0 10px;
+  background-color: #4F94CD	;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+font-family : "Microsoft JhengHei";
+
+
+}
+
+.quotes{
+    font-size : 70px;
+
+    color : white;
+    word-spacing : 2px;
+line-height : 100px;
+    margin-left : -120px;
+    margin-top : 200px;
+     font-family: "Microsof Sans Serif";
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+    font-size : 35px;
+    color : white;
+    margin-bottom : 5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+    
+}
+
+.steps{
+    font-family : "Microsoft Sans Serif";
+    font-size : 50px;
+    color : #789DB7	;
+    
+}
+.box1{
+    border : 5px solid #4F94CD	;
+
+    padding : 20px;
+    border-radius : 10px;
+    color : black;
+    
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+    height : 600px;
+    
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.container1{
+
+    width : 100%;
+    height : 500px;
+    margin-top : 50px;
+   
+    
+}
+.container1-left{
+    background-image : url("https://www.customsoftwarelab.com/wp-content/uploads/2016/03/top-web-development-tools-every-developer-should-use.jpg");
+    background-size : cover;
+    
+    width : 70%;
+     height : 100%;
+    
+}
+.container1-right{
+    margin-left : 1150px;
+    margin-top :  -400px;
+    margin-right  : 160px;
+
+    font-size : 60px;
+    color : black;
+    word-spacing: 30px;
+    line-height : 80px;
+    font-family : "Microsoft JhengHei";
+
+}
+
+.container2{
+    height : 1100px;
+    width : 100%;
+    background-color : #E6E4E4	;
+    padding : 10px 40px 10px 50px;
+    margin-bottom: 50px;
+}
+
+.container2 h2{
+    font-size : 45px;
+    text-align : center;
+    font-family :"Microsoft JhengHei";
+    color : black;
+}
+
+.fsd img{
+    margin-left : -5px;
+    margin-top : 50px;
+    width : 500px;
+    height : 300px;
+    margin-bottom : 30px;
+    
+    
+}
+
+.fsd p{
+    margin-left : 520px;
+    margin-top : -250px;
+    font-size : 18px;
+    font-family :"Microsoft JhengHei";
+    text-align : justify all:
+}
+
+.container3{
+    width : 100%;
+    height : 400px;
+    margin-bottom : 5px;
+
+}
+
+.left{
+    margin-top : 200px;
+    margin-left : 30px;
+
+}
+.h1{
+    font-family : "Microsoft JhengHei";
+    font-size : 50px;
+    word-spacing : 5px;
+    color : #4F94CD;
+}
+
+.right{
+    margin-left : 650px;
+    }
+.right img{
+    margin-top : -140px;
+    width : 790px;
+    height : 450px;
+    
+}
+
+.story-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #E6E4E4;
+  text-align: center;
+    height : 500px;
+    margin-top : -10px;
+    padding-top : -10px;
+
+    
+}
+.celeb {
+  float: left;
+  width: 33%;
+}
+
+.story-icon {
+  position: relative;
+}
+
+.story-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.story-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 22px;
+  color: black;
+    font-family : "Microsoft JhengHei";
+    
+}
+
+.container4 {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.headd {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.headd h2 {
+  font-weight: normal;
+}
+
+.stepss{
+    font-family : "Microsoft JhengHei";
+    font-size : 50px;
+    color : black	;
+}
+
+.photo{
+    width : 300px;
+    height : 300px;
+    border-radius : 70%;
+}
+
+
+.container5{
+    width : 100%;
+    height : 500px;
+    margin-right : 40px;
+    
+}
+
+.list{
+    margin-top : 10px;
+    margin-left : 120px;
+    font-size : 30px;
+    font-family : "Microsoft JhengHei";
+}
+
+.platform{
+    margin-top : 20px;
+    margin-left : 50px;
+    
+}
+
+.photo1{
+    width : 400px;
+    height : 400px;
+    
+}
+
+.coding{
+    margin-left : 660px;
+    margin-top : -465px;
+    font-size : 30px;
+    font-family : "Microsoft JhengHei";
+    
+}
+
+.development{
+    margin-left : 540px;
+    margin-top : 20px;
+    font-size : 30px;
+    font-family : "Microsoft JhengHei";
+    
+}
+.ux{
+    margin-left : 1170px;
+    margin-top : -469px;
+    font-size : 30px;
+    font-family : "Microsoft JhengHei";
+    
+}
+
+.designer{
+    margin-left : 1040px;
+    margin-top : 20px;
+    font-size : 30px;
+    font-family : "Microsoft JhengHei";
+    
+}
+
+.photo2{
+    width : 500px;
+    height : 400px;
+}
+
+.container6{
+    width : 100%;
+    height : 500px;
+    background-color : #4F94CD;
+    padding-top : 50px;
+    padding-left : 150px;
+    color : white;
+    
+}
+.container6 h1{
+    font-family :"Microsoft JhengHei";
+    font-size : 35px;
+    margin-left : -30px;
+    margin-bottom : 30px;
+    
+}
+
+.coding-links{
+    color : white;
+    line-height : 80px;
+    word-spacing: 5px;
+    font-size : 30px;
+    font-family : "Microsoft JhengHei";
+    margin-left : 10px;
+}
+
+
+.plat {
+    margin-top : -390px;
+        font-family :"Microsoft JhengHei";
+    font-size : 35px;
+    margin-left : 360px;
+    margin-bottom : 30px;
+    
+}
+
+.web-links{
+    color : white;
+    line-height : 80px;
+    word-spacing: 5px;
+    font-size : 30px;
+    font-family : "Microsoft JhengHei";
+    
+}
+
+.container6 a{
+    text-decoration : none;
+    color : white;
+}
+
+.story-wrapper a{
+    text-decoration : none;
+    color : black
+}
+
+.about{
+    margin-top : -390px;
+    margin-left  : 1000px;
+    margin-bottom : 30px;
+    font-size : 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
